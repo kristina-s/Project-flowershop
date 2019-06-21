@@ -1,1 +1,1 @@
-# React-eshop
+# Online flowershop
