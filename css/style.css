@@ -1,0 +1,262 @@
+/* style.css */
+*{
+    background-color: rgb(255, 254, 254);
+}
+.main-container{
+    font-family: Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0px auto;
+    background-color:  rgb(255, 254, 254);
+    font-family: 'Kalam', cursive;
+}
+.title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+    color: rgb(163, 53, 163);
+}
+/* upper menu bar */
+.main-container .upper-menu-bar .upper-navbar #navbarNavDropdown{
+    background-color: rgb(238, 238, 238);
+}
+.upper-menu-bar .upper-navbar{
+    height: 100px; 
+    /* border: 1px solid black; */
+}
+.upper-menu-bar .upper-navbar .nav-link{
+    color: rgb(163, 53, 163);
+    font-weight: 600;
+}
+.upper-menu-bar .upper-navbar #navbarNavDropdown .flowers-btn{
+    background-color: rgb(255, 254, 254);
+    color: rgb(163, 53, 163);
+    font-weight: 600;
+    border-width: 0px;
+    padding-top: 8px;
+    font-size: 26px;
+}
+.inner-nav{
+    margin-left: auto;
+    margin-right: 30px;
+    font-family: 'Kalam', cursive;
+    font-size: 26px;
+}
+/* main spaces */
+.main-container .main-spaces{
+    margin-bottom: 0px;
+    position: relative;
+}
+/* jumbotrons */
+.main-container  .jumbotron-bigspace, .main-container  .jumbotron-bigspace, .container{
+    height: 500px;
+    text-align: center;
+    padding: 0%;
+    background-color: lightgrey;
+}
+.main-container .jumbotron-bigspace{
+    position: relative;
+}
+.main-container .jumbotron-bigspace .inner-link{
+    width: auto;
+    height: auto;
+    background-color: rgb(23, 39, 39);
+    color: white;
+    position: absolute;
+    left: 39%;
+    top: 45%;
+    padding: 10px;
+    font-weight: 900;
+    z-index: 100;
+    cursor: pointer;
+}
+.inner-link a:hover{
+    background-color:rgb(163, 53, 163);
+    color: white;
+    padding: 10px;
+    
+}
+.jumbotron-images{
+    height: 500px;
+    padding: 0%;
+    margin: 0px;
+}
+/* about us home page */
+.about-space{
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.about-space .left-about-section{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.left-about-section .about-image{
+    width:100%;
+    height: 100%;
+}
+.about-space .right-about-section{
+    height: 100%;
+    width: 50%;
+    font-size: 30px;
+    background-color: lightgray;
+    color: rgb(163, 53, 163);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 30px;
+    float: right;
+}
+.about-space #see-more{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+#other-about-us{
+    text-decoration: underline;
+    font-weight: 700;
+}
+#see-more  a:hover{
+    background-color: rgb(163, 53, 163);
+    color: white;
+    cursor: pointer;
+}
+/* lower bar */
+.lower-bar{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color:  rgb(163, 53, 163);
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+}
+.lower-bar > *{
+    background-color:  rgb(163, 53, 163);
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+#nav-filter{
+    display: none;
+}
+/* paging */
+#my-pag{
+    display: none;
+    margin: 60px;
+}
+.paging-btn{
+    color: rgb(163, 53, 163);
+    font-size: 22px;
+    font-weight: 700;
+}
+/* display flowers part */
+#show-flowers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(255, 254, 254);
+}
+.card-of-flower-to-show .details-btn{
+    background-color: rgb(163, 53, 163);
+    color: white;
+}
+.card{
+    display: inline;
+    text-align: center;
+    padding: 5px;
+    margin: 8px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 5px 10px 8px #888888;
+    font-family: 'Questrial', sans-serif;
+    border: 1px solid darkgray;
+}
+.card:hover{
+    transform: scale(1.05);
+    z-index: 5555;
+}
+.card input{
+    text-align: center;
+    font-size: 12px;
+}
+.card .card-img-top{
+    height: 260px;
+    width: 220px;
+}
+.quantity-input{
+    width: 60px;
+    font-size: 12px;
+    text-align: center;
+}
+.plus-image{
+    height: 100px;
+    width: 120px;
+    float: left;
+}
+#cart-quantity{
+    display: inline;
+}
+.main-container #my-cart, #print-total, #about-us, #customer-service{
+    display: none;
+}
+/* customer */
+.customer-service-inside{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.contact{
+    width: 25%;
+    text-align: center;
+}
+.map{
+    width: 45%; 
+    text-align: center;
+}
+.mail{
+    width: 30%;
+    text-align: center;
+}
+.italic{
+    font-style: italic;
+}
+/* about us */
+#about-us, #my-cart{
+    text-align: center;
+    padding: 20px;
+    /* height: 550px;   */
+}
+.inside-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: content-box;
+    margin: 20px;
+}
+.carousel-left{
+    width: 45%;
+}
+.text-par{
+    width: 45%;
+    font-size: 18px;
+}
+.cart-table{
+    width: 800px;
+}
+/* hover to enlarge images */
+/* .thumbnail:hover {
+    position: fixed;
+    top:10px;
+    left:350px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+} */
+#price{
+    font-weight: 900;
+    text-decoration: underline;
+}
+.whole-table-div{
+    text-align: center;
+}
