@@ -160,8 +160,7 @@
     color: white;
 }
 .card{
-    
-    display: inline;
+    width: 22rem;;
     text-align: center;
     padding: 5px;
     margin: 8px;
@@ -181,6 +180,7 @@
 .card .card-img-top{
     height: 260px;
     width: 220px;
+    margin: 5px auto;
 }
 .quantity-input{
     width: 60px;
@@ -230,8 +230,8 @@
 .inside-about{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    box-sizing: content-box;
+    justify-content: space-around;
+    box-sizing: border-box;
     margin: 10px;
 }
 .carousel-left{

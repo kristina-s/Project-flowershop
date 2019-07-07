@@ -55,7 +55,7 @@ let flowerServices = {
        
         for (const flower of array) {
         $("#show-flowers").append(`           
-                <div class="card" style="width: 24rem;">
+                <div class="card">
                     <img class="card-img-top" src="${flower.titleImage}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">${flower.name}</h5>
