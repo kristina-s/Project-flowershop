@@ -160,6 +160,7 @@
     color: white;
 }
 .card{
+    
     display: inline;
     text-align: center;
     padding: 5px;
@@ -223,7 +224,7 @@
 /* about us */
 #about-us, #my-cart{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     /* height: 550px;   */
 }
 .inside-about{
@@ -231,7 +232,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     box-sizing: content-box;
-    margin: 20px;
+    margin: 10px;
 }
 .carousel-left{
     width: 45%;
